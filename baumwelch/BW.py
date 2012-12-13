@@ -6,7 +6,7 @@ import sys
 
 CURRENT_PATH = os.path.abspath(os.path.dirname(__file__))
 data = CURRENT_PATH.replace("baumwelch", "data")
-hmm_python = CURRENT_PATH.replace("baumwelch", "hmm-python")
+hmm_python = CURRENT_PATH.replace("baumwelch", "hmmpython")
 
 sys.path.append(hmm_python)
 
