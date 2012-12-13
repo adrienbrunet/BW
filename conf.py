@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# Baum-Welch documentation build configuration file, created by
-# sphinx-quickstart on Thu Dec 13 14:50:47 2012.
+# BaumWelch documentation build configuration file, created by
+# sphinx-quickstart on Thu Dec 13 15:36:52 2012.
 #
 # This file is execfile()d with the current directory set to its containing dir.
 #
@@ -25,7 +25,7 @@ import sys, os
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.coverage', 'sphinx.ext.viewcode']
+extensions = ['sphinx.ext.autodoc']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -40,8 +40,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Baum Welch'
-copyright = u'2012, Les Centraliens'
+project = u'BaumWelch'
+copyright = u'2012, Centraliens'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -164,7 +164,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Baum Welchdoc'
+htmlhelp_basename = 'BaumWelchdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -183,8 +183,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'Baum Welch.tex', u'Baum Welch Documentation',
-   u'Les Centraliens', 'manual'),
+  ('index', 'BaumWelch.tex', u'BaumWelch Documentation',
+   u'Centraliens', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -213,8 +213,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'baum welch', u'Baum Welch Documentation',
-     [u'Les Centraliens'], 1)
+    ('index', 'baumwelch', u'BaumWelch Documentation',
+     [u'Centraliens'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -227,8 +227,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'Baum Welch', u'Baum Welch Documentation',
-   u'Les Centraliens', 'Baum Welch', 'One line description of project.',
+  ('index', 'BaumWelch', u'BaumWelch Documentation',
+   u'Centraliens', 'BaumWelch', 'One line description of project.',
    'Miscellaneous'),
 ]
 
